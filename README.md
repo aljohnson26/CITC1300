@@ -2,5 +2,5 @@
 
 <h1>My Web Projects</h1>
 
-<a href="Lab1/index.html" target="_blank">Lab1</a>
+<a href="lab1/index.html" target="_blank">lab1</a>
 

@@ -5,4 +5,5 @@
 <ul>
     <li><a href="Hello_World/index.html" target="_blank">lab 1-Hello World</a></li>
     <li><a href="Lab_2/index.html" target="_blank">Lab_2 - Basic Structure</a></li>
+    <li><a href="Lab_3/index.html" target="_blank">Lab_3 - Basic HTML and HTML Semantics</a></li>
 </ul>

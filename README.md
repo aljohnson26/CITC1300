@@ -3,4 +3,4 @@
 <h1>My Web Projects</h1>
 
 <a href="Hello_World/index.html" target="_blank">lab 1-Hello World</a>
-<a href="Lab 2/index.html" target="_blank">lab 2</a>
+<a href="Lab 2/index.html" target="_blank">Lab 2</a>

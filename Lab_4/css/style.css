@@ -57,7 +57,7 @@ nav a:hover {
 main {
     background-color: white;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px 0; 
 }
 main h2 {
     text-align: center;
@@ -65,11 +65,28 @@ main h2 {
     font-size: 40px;
 }
 
+main p{
+    text-align: center;
+    color: teal;
+    font-size: 20px;
+    
+}
+
 main img {
     display: block;
     margin: 20px auto;
     width: 75%;
     border-radius: 20px;
+}
+
+main h3{
+    color: darkslategray;
+    font-size: 40px;
+}
+
+main ul{
+    color: darkslategray;
+    font-size: 40px;
 }
 
 footer {

@@ -1,21 +1,21 @@
 body {
     background-color: blueviolet;
-    background-image: url('../images/hogwartsletter.jpg');
+    background-image: url('../images/hogwartsexpress.jpg');
     background-size: cover;
     background-position: center;
 }
 
 img {
-    max-width: 100%;
+    max-width: 100;
 }
 
 header {
-    background-color: silver;
+    background-color:black;
 }
 
 header img {
     display: block;
-    width: 65%;
+    width: 30%;
     margin: 0 auto;
     padding: 40px;
 }
@@ -34,7 +34,7 @@ h1 , h2{
 }
 
 nav {
-    background-color:red;
+    background-color: white;
     padding: 20px;
     text-align:center;
 }
@@ -48,7 +48,7 @@ nav a {
     border-radius: 10px 10px 0 0;
 }
 nav a:hover {
-    background-color: black;
+    background-color: blue;
     color: whites;
 }
 
@@ -58,7 +58,7 @@ main {
 
 main img {
     display: block;
-    width: 75%;
+    width: 60%;
     margin: 20px auto;
 }
 

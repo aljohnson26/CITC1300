@@ -21,13 +21,13 @@ header img {
 
 h1 , h2{
     text-align: center;
-    color: darkred;
+    color: darkolivegreen;
     padding: 40px 0;
 }
 p {
     text-align: center;
     font-size: 25px;
-    color: darkred;
+    color:darkolivegreen;
     padding: 40px 0;
 }
 
@@ -41,7 +41,7 @@ p {
 }
 
 nav {
-    background-color: darkred;
+    background-color: darkolivegreen;
     padding: 20px;
     text-align:center;
 }
@@ -50,12 +50,12 @@ nav a {
     background-color: black;
     padding:20px 50px;
     font-size: 20px;
-    color: brown;
+    color: darkseagreen;
     text-decoration: none;
     border-radius: 10px 10px 0 0;
 }
 nav a:hover {
-    background-color: gray;
+    background-color: darkslategrey;
     color: whites;
 }
 
@@ -71,7 +71,7 @@ main img {
 }
 
 footer {
-    background-color: darkred;
+    background-color: darkolivegreen;
     text-align: center;
     color: white;
     padding: 40px 0;

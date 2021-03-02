@@ -1,6 +1,5 @@
 body {
-    background-color: blueviolet;
-    background-image: url('../images/hogwartsexpress.jpg');
+    background-image: url('../images/dots.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -15,18 +14,26 @@ header {
 
 header img {
     display: block;
-    width: 30%;
+    width: 35%;
     margin: 0 auto;
-    padding: 40px;
+    padding: 10px;
 }
 
 h1 , h2{
     text-align: center;
+    color: darkred;
+    padding: 40px 0;
+}
+p {
+    text-align: center;
+    font-size: 25px;
+    color: darkred;
+    padding: 40px 0;
 }
 
 #container {
     background: #fff;
-    width: 65%;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
     border-left: 4px solid black;
@@ -34,36 +41,37 @@ h1 , h2{
 }
 
 nav {
-    background-color: white;
+    background-color: darkred;
     padding: 20px;
     text-align:center;
 }
 
 nav a {
-    background-color: white;
+    background-color: black;
     padding:20px 50px;
     font-size: 20px;
-    color: black;
+    color: brown;
     text-decoration: none;
     border-radius: 10px 10px 0 0;
 }
 nav a:hover {
-    background-color: blue;
+    background-color: gray;
     color: whites;
 }
 
 main {
     padding: 20px;
+    color: white;
 }
 
 main img {
     display: block;
-    width: 60%;
+    width: 40%;
     margin: 20px auto;
 }
 
 footer {
-    background-color: #000;
+    background-color: darkred;
     text-align: center;
     color: white;
     padding: 40px 0;

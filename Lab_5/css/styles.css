@@ -6,12 +6,10 @@ body {
     background-color: red;
 }
 
-/* Mobile View */
-
 nav {
-
+    background-color:blueviolet;
 }
 
 nav li{
-
+color: crimson;
 }

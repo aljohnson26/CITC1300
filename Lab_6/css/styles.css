@@ -8,12 +8,6 @@ img {
     max-width: 100%;
 }
 
-header {
-    background-image: url('../images/sky.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
 a {
     color: salmon ;
 }
@@ -24,6 +18,12 @@ a:hover {
 }
 
 /* Mobile Styles */
+
+header {
+    background-image: url('../images/sky.jpg');
+    background-size: cover;
+    background-position: center;
+}
 
 header {
     background-color: darkolivegreen;

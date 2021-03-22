@@ -1,31 +1,37 @@
 /* Global Sytles */
 
 body {
-background-color: blue;
+background-color: darkolivegreen;
 }
 
 img {
     max-width: 100%;
 }
 
+header {
+    background-image: url('../images/trail.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 a {
-    color: teal;
+    color: darkgrey ;
 }
 
 a:hover {
-    color: violet;
+    color: darkslategray;
     text-decoration: none;
 }
 
 /* Mobile Styles */
 
 header {
-    background-color:orangered ;
-    padding: 40px 0;
+    background-color: darkolivegreen;
+    padding: 30px 0;
     text-align: center;
 }
 nav {
-    background-color:blueviolet;
+    background-color: olivedrab;
     text-align: center;
 }
 
@@ -40,26 +46,28 @@ nav li {
 
 nav li a {
 display: block;
-padding: 15px 0;
-border-top: soild yellowgreen;
+padding: 5px 0;
+border-top: soild darkseagreen;
 font-size: 1.5em;
 font-weight: bold;
 text-decoration: none;
 }
 
 nav ul a:hover {
-    background-color: turquoise;
+    background-color: darkolivegreen;
 }
 
 main {
-    background-color: black;
+    background-color: darkolivegreen;
+    text-color: darkolivegreen;
     padding: 20px;
     margin: 10px;
 }
 
 footer {
-    background-color: white;
+    background-color: darkolivegreen;
     text-align: center;
     padding: 20px 0;
     margin: 10px;
+    text-shadow: 2px 2px 1px darkseagreen;
 }

@@ -20,13 +20,10 @@ a:hover {
 /* Mobile Styles */
 
 header {
+    background-color: darkolivegreen;
     background-image: url('../images/sky.jpg');
     background-size: cover;
     background-position: center;
-}
-
-header {
-    background-color: darkolivegreen;
     padding: 30px 0;
     text-align: center;
 }

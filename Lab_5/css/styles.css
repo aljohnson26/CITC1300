@@ -9,13 +9,13 @@ img {
 }
 
 header {
-    background-image: url('../images/trail.jpg');
+    background-image: url('../images/sky.jpg');
     background-size: cover;
     background-position: center;
 }
 
 a {
-    color: darkgrey ;
+    color: salmon ;
 }
 
 a:hover {
@@ -31,7 +31,7 @@ header {
     text-align: center;
 }
 nav {
-    background-color: olivedrab;
+    background-color: darkolivegreen;
     text-align: center;
 }
 
@@ -61,12 +61,12 @@ main {
     background-color: darkolivegreen;
     padding: 20px;
     margin: 10px;
-}
+    }
 
-footer {
-    background-color: darkolivegreen;
-    text-align: center;
-    padding: 20px 0;
-    margin: 10px;
-    text-shadow: 2px 2px 1px darkseagreen;
-}
+    footer {
+        background-color: darkolivegreen;
+        text-align: center;
+        padding: 20px 0;
+        margin: 10px;
+        text-shadow: 2px 2px 1px salmon;
+    }

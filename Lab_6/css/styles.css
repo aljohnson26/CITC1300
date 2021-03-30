@@ -80,7 +80,7 @@ footer {
         background-image: url('../images/sky.jpg');
         background-size: cover;
         background-position: center center;
-        padding: 4  0px 0;
+        padding: 40px 0;
     }
 
     header h1 {
@@ -127,7 +127,6 @@ footer {
     header h1 {
         font-size: 3em;
         color: #f2784b;
-        text-shadow: black;
     }
 
     nav li a {

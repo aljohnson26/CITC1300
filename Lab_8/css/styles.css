@@ -1,7 +1,7 @@
 /* Global Sytles */
 
 body {
-    background-color: #262626;
+    background-color: #0a6e80;
     }
     
     img {
@@ -9,18 +9,18 @@ body {
     }
     
     a {
-        color: #f2784b ;
+        color: #0460d9 ;
     }
     
     a:hover {
-        color: darkslategray;
+        color: #0460d9;
         text-decoration: none;
     }
     
     /* Mobile Styles */
     
     header {
-        background-color: #262626;
+        background-color: #a6038b;
         background-image: url('../images/sky.jpg');
         background-size: cover;
         background-position: center;
@@ -28,7 +28,7 @@ body {
         text-align: center;
     }
     nav {
-        background-color: #222602;
+        background-color: #0a6e0a;
         text-align: center;
     }
     
@@ -44,7 +44,7 @@ body {
     nav li a {
         display: block;
         padding: 15px 0;
-        border-top: 1px darkseagreen;
+        border-top: 1px #1487e0;
         font-size: 1.5em;
         font-weight: bold;
         text-decoration: none;
@@ -55,7 +55,7 @@ body {
     }
     
     main {
-        background-color: #595305;
+        background-color: #262626;
         text-align: center;
         padding: 20px;
         margin: 10px;
@@ -66,7 +66,7 @@ body {
         text-align: center;
         padding: 20px 0;
         margin: 10px;
-        text-shadow: 2px 2px 1px salmon;
+        text-shadow: 2px 2px 1px #f2784b;
     }
     
     .desktop {

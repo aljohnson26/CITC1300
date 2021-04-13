@@ -138,6 +138,31 @@ body {
             width: 25%;
         }
 
+        aside ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        aside li {
+            display: inline-block;
+        }
+
+        aside li a {
+            padding: 20px 40px;
+            background-color: white;
+            text-align: center;
+            color: teal;
+            font-size: 125%;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding: 20px 0;
+        }
+
         .feature {
             background-color: black;
             padding: 10px;
@@ -151,6 +176,15 @@ body {
 
         div.bx-wrapper {
             display: none;
+        }
+
+        .button {
+            padding: 20px 40px;
+            background-color: white;
+            text-align: center;
+            color: teal;
+            font-size: 95%;
+            text-decoration: none; 
         }
     }
     

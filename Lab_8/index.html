@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="dist/slicknav.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="lightbox2-dev/dist/css/lightbox.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="dist/jquery.slicknav.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/zenscroll-min.js"></script>
+    <script src="dist/js/lightbox.min.js"></script>
     <script>
         $(function(){
             $('#menu').slicknav();
@@ -21,7 +24,8 @@
         });
     </script>   
 </head>
-<body>
+
+<body id="top">
 <div id="container">   
     <header>
         <h1>JellyFish</h1>
@@ -29,10 +33,10 @@
 
     <nav>
         <ul id="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="images.html">Information</a></li>
-            <li><a href="information.html">More</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#main">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>   
     </nav>
     <main>
@@ -42,75 +46,53 @@
                     <div><img src="images/silas-baisch-K785Da4A_JA-unsplash.jpg"></div>
                     <div><img src="images/jeffrey-hamilton-JtVyK2Sej2I-unsplash.jpg"></div>
                   </div>
-                <h2>They Predate the Dinosaurs by Hundreds of Millions of Years</h2>
+                <h2 id="main">They Predate the Dinosaurs by Hundreds of Millions of Years</h2>
                 <p>Jellyfish have no bones, so fossils are hard to come by. Nevertheless, scientists have evidence these creatures have been bobbing along in the world's oceans for at least 500 million years. In fact, it's likely the jellyfish lineage goes back even further, possibly 700 million years. That's roughly three times the age of the first dinosaurs.</p>
-
-                <img src="images/vino-li-gGX1fJkmw3k-unsplash.jpg" alt="JellyFish">
+                <a href="images/vino-li-gGX1fJkmw3k-unsplash.jpg" data-lightbox="images1" data-title="technology">
+                    <img src="images/vino-li-gGX1fJkmw3k-unsplash.jpg" alt="JellyFish">
+                </a>
 
                 <div id="accordion">
-                    <h3>Section 1</h3>
+                    <h3>They Are 98% Water, Without a Brain or a Heart</h3>
                     <div>
                       <p>
-                      Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-                      ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-                      amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-                      odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                        Jellyfish seem to blend in with their environment, undulating gently with the ocean's currents, and with good reason: Their bodies are made up of as much as 98% water. When they wash ashore, they can disappear after just a few hours as their bodies evaporate into the air. They have a rudimentary nervous system, a loose network of nerves located in the epidermis called a "nerve net," but no brain. They also don't have a heart; their gelatinous bodies are so thin they can be oxygenated solely by diffusion.
                       </p>
                     </div>
-                    <h3>Section 2</h3>
+                    <h3>But Some Have Eyes</h3>
                     <div>
                       <p>
-                      Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-                      purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-                      velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-                      suscipit faucibus urna.
+                        Despite their simple body design, some jellyfish have the ability to see. In fact, for a few species their vision can be surprisingly complex. For instance, the box jellyfish has 24 "eyes," two of which are capable of seeing in color. It's also believed this animal's complicated array of visual sensors makes it one of the few creatures in the world to have a full 360-degree view of its environment.
                       </p>
                     </div>
-                    <h3>Section 3</h3>
+                    <h3>Some Might Be Immortal</h3>
                     <div>
                       <p>
-                      Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-                      Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-                      ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-                      lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                        At least one species of jellyfish, Turritopsis nutricula, may be able to cheat death. When threatened, this species is capable of undergoing "cellular transdifferentiation," a process whereby the organism's cells essentially become new again. In other words, this jellyfish has a built-in fountain of youth. It's theoretically immortal!
                       </p>
-                      <ul>
-                        <li>List item one</li>
-                        <li>List item two</li>
-                        <li>List item three</li>
-                      </ul>
                     </div>
-                    <h3>Section 4</h3>
+                    <h3>They Poop Where They Eat</h3>
                     <div>
                       <p>
-                      Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-                      et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-                      faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-                      mauris vel est.
-                      </p>
-                      <p>
-                      Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-                      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
+                        It might not sound very appetizing, but jellyfish have no need for separate orifices for eating and pooping. They have one orifice that does the job of both the mouth and the anus. Yuck! But that's also beautiful in a minimalist sort of way.
                       </p>
                     </div>
                   </div>      
-
+                  <a class="button" href="#top">Back to Top</a>
             </article>   
             
         <div class="feature"></div>   
-            <h3>Featured Projects</h3>
-            <div class="Projects">
+            <h3 id="portfolio">Featured Projects</h3>
+            <div class="Portfolio">
                 <img src="images/brdnk-vision-Ui8oRefm5Y8-unsplash.jpg"alt="JellyFish">
                 <img src="images//eric-aiden-JTy9bt2418s-unsplash.jpg"alt="JellyFish">
             </div> 
         </div>    
-        <aside>
-            <h3>Contact Info.</h3>
+        <aside id="contact">
+            <h3 id="feature1">Contact Info.</h3>
             <h4>Ashley Johnson</h4>
             <ul>
-                <li><a href="#">Email Me</a></li>
-                <li><a href="423-790-6724">Call Me</a></li>
+                <li><a class="button" href="423-790-6724">Call Me</a></li>
             </ul>
         </aside>
      </section>

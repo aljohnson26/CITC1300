@@ -2,38 +2,121 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab_8 Intro to JQuery</title>
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="SlickNav/dist/slicknav.min.css" />
-    <script src="SlickNav/dist/jquery.slicknav.min.js"></script>
-    <link rel="stylesheet" href="/path/to/jquery.bxslider.css">
+    <link rel="stylesheet" href="dist/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="/path/to/jquery.bxslider.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="dist/jquery.slicknav.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+            $( "#accordion" ).accordion();
+        });
+    </script>   
 </head>
 <body>
 <div id="container">   
     <header>
-        <h1>Intro to JQuery</h1>
+        <h1>JellyFish</h1>
     </header>
+
     <nav>
-        <ul>
-            <li><a href="index.html">Page1</a></li>
-            <li><a href="about.html">Page2</a></li>
-            <li><a href="images.html">Page3</a></li>
-            <li><a href="information.html">Page4</a></li>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="images.html">Information</a></li>
+            <li><a href="information.html">More</a></li>
         </ul>   
     </nav>
     <main>
-        <h2>Welcome</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis veritatis iure molestias quia dolores labore perspiciatis quam totam error, ab quibusdam assumenda laboriosam aperiam dolorum similique pariatur excepturi delectus tempore.</p>
+        <section>
+            <article>
+                <div class="slider">
+                    <div><img src="images/silas-baisch-K785Da4A_JA-unsplash.jpg"></div>
+                    <div><img src="images/jeffrey-hamilton-JtVyK2Sej2I-unsplash.jpg"></div>
+                  </div>
+                <h2>They Predate the Dinosaurs by Hundreds of Millions of Years</h2>
+                <p>Jellyfish have no bones, so fossils are hard to come by. Nevertheless, scientists have evidence these creatures have been bobbing along in the world's oceans for at least 500 million years. In fact, it's likely the jellyfish lineage goes back even further, possibly 700 million years. That's roughly three times the age of the first dinosaurs.</p>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor hic quisquam minima ratione odio! Laboriosam natus nulla modi qui sint? Doloribus distinctio rem itaque nihil harum optio obcaecati quo magni?</p>
+                <img src="images/vino-li-gGX1fJkmw3k-unsplash.jpg" alt="JellyFish">
+
+                <div id="accordion">
+                    <h3>Section 1</h3>
+                    <div>
+                      <p>
+                      Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                      ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                      amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                      odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                      </p>
+                    </div>
+                    <h3>Section 2</h3>
+                    <div>
+                      <p>
+                      Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                      purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                      velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                      suscipit faucibus urna.
+                      </p>
+                    </div>
+                    <h3>Section 3</h3>
+                    <div>
+                      <p>
+                      Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                      Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                      ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                      lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                      </p>
+                      <ul>
+                        <li>List item one</li>
+                        <li>List item two</li>
+                        <li>List item three</li>
+                      </ul>
+                    </div>
+                    <h3>Section 4</h3>
+                    <div>
+                      <p>
+                      Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                      et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                      faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                      mauris vel est.
+                      </p>
+                      <p>
+                      Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                      inceptos himenaeos.
+                      </p>
+                    </div>
+                  </div>      
+
+            </article>   
+            
+        <div class="feature"></div>   
+            <h3>Featured Projects</h3>
+            <div class="Projects">
+                <img src="images/brdnk-vision-Ui8oRefm5Y8-unsplash.jpg"alt="JellyFish">
+                <img src="images//eric-aiden-JTy9bt2418s-unsplash.jpg"alt="JellyFish">
+            </div> 
+        </div>    
+        <aside>
+            <h3>Contact Info.</h3>
+            <h4>Ashley Johnson</h4>
+            <ul>
+                <li><a href="#">Email Me</a></li>
+                <li><a href="423-790-6724">Call Me</a></li>
+            </ul>
+        </aside>
+     </section>
     </main>
 
     <footer>&copy 2021 - Lab-8 JQuery</footer>
 </div>     
 </body>
-</html>
+</html>-

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="dist/slicknav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="lightbox2-dev/dist/css/lightbox.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="dist/jquery.slicknav.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/zenscroll-min.js"></script>
+    <script src="dist/js/lightbox.min.js"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+            $('.slider').bxSlider();
+            $( "#accordion" ).accordion();
+        });
+    </script>   
+</head>
+
+<body id="top">
+<div id="container">   
+    <header>
+        <h1>My Family</h1>
+    </header>
+
+    <nav>
+        <ul id="menu">
+          <li><a href="index.html">My Family</a></li>
+          <li><a href="ryan.html">Ryan</a></li>
+          <li><a href="sarah.html">Sarah</a></li>
+          <li><a href="hannah.html">Hannah</a></li>
+          <li><a href="bexley.html">Bexley</a></li>
+        </ul>   
+    </nav>
+    <main>
+        <section>
+            <h2>My Nieces and Nephews</h2>
+            <article>
+                <div class="slider">
+                    <div><img src="images/hannah.jpg" alt="Hannah"></div>
+                    <div><img src="images/hannah2.jpg" alt="Hannah"></div>
+                  </div>
+                <h2 id="main">Hannah</h2>
+                <p>Hello, My name is Hannah</p>
+                <a href="images/hannah3.jpg" data-lightbox="images1" data-title="Hannah">
+                    <img src="images/hannah3.jpg" alt="Hannah">
+                </a>
+
+                <div id="accordion">
+                    <h3>I am 9 years old!</h3>
+                </div>
+                    <div>
+                      <p>
+                        I am in 3rd grade!
+                      </p>
+                    </div>
+                    <h3>My best friend is my aunt Ashley.</h3>
+                    <div>
+                      <p>
+                         I usually call her Ashmeow! I can up with that name myself!
+                      </p>
+                    </div>
+                    <h3>I love music!</h3>
+                    <div>
+                      <p>
+                        JoJo Siwa and kidz bop is some of my favorite things to listen too!
+                      </p>
+                    </div>
+                    <h3>I love to dance!</h3>
+                    <div>
+                      <p>
+                        When I get home from school after doing my homework, I turn on my music and dance!
+                      </p>
+                    </div>    
+                    <a class="button" href="#top">Back to Top</a>
+                </article>   
+            
+                <div class="feature"></div>   
+                    <h3 id="portfolio">Featured Projects</h3>
+                <div class="Portfolio">
+                        <img src="images/hannah4.jpg" alt="Hannah">
+                        
+                </div>   
+            <aside id="contact">
+                <h3 id="feature1">Contact Info.</h3>
+                <h4>Ashley Johnson</h4>
+                <ul>
+                    <li><a class="button" href="423-790-6724">Call Me</a></li>
+                </ul>
+            </aside>
+        </section>
+    </main>
+
+    <footer>&copy; 2021 - Final Project</footer>
+</div>     
+</body>
+</html>

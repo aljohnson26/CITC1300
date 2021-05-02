@@ -7,6 +7,15 @@ header {
         padding: 10px 0;
         text-align: center;
 }
+
+main {
+    background-color: #262626;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+
 body {
     background-color: #a61b26;
     }

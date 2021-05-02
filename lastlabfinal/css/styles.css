@@ -1,5 +1,12 @@
 /* Global Sytles */
 
+header {
+    background-color: #262626;
+        background-size: cover;
+        background-position: center;
+        padding: 10px 0;
+        text-align: center;
+}
 body {
     background-color: #a61b26;
     }
@@ -16,14 +23,26 @@ body {
         color: #402E59;
         text-decoration: none;
     }
+
+    table {
+        border: 3px solid #a61b26;
+        width: 100%;
+    }
+
+    tr, td, th {
+        border: 1px solid #262626;
+        padding: 10px;
+        text-align: center;
+        font-size: 1em;
+    }
     
     /* Mobile Styles */
     
     header {
-        background-color: #a61b26;
+        background-color: #262626;
         background-size: cover;
         background-position: center;
-        padding: 30px 0;
+        padding: 10px 0;
         text-align: center;
     }
     nav {
@@ -42,9 +61,9 @@ body {
     
     nav li a {
         display: block;
-        padding: 15px 0;
+        padding: 2px 0;
         border-top: 1px #402E59;
-        font-size: 1.5em;
+        font-size: 1em;
         font-weight: bold;
         text-decoration: none;
     }
@@ -67,7 +86,7 @@ body {
         margin: 10px;
         text-shadow: 2px 2px 1px #402E59;
     }
-    
+
     .desktop {
         display: none;
     }
@@ -169,11 +188,6 @@ body {
             margin-top: 1%;
         }
 
-        #menu {
-            display: none;
-
-        }
-
         div.bx-wrapper {
             display: none;
         }
@@ -205,7 +219,7 @@ body {
             color: grey;
         }
 
-        #menu {
+        #menu { 
             display: block;
         }
 

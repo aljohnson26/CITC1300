@@ -1,7 +1,6 @@
 /* Global Sytles */
 
 header {
-    background-color: #262626;
     background-image: url(../images/background.jpg);
     background-position: center;
     padding: 10px 0;
@@ -9,6 +8,11 @@ header {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    color: darkgrey;
+    text-align: center;
+    
+} 
 
 main {
     background-color: #4b83a6;
@@ -18,9 +22,9 @@ main {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 body {
     background-color: #424d8c;
+    text-align: center center;
     }
     
     img {
@@ -116,18 +120,18 @@ body {
     }
     
     /* Tablet Styles */
-    
     @media only screen and (min-width: 768px) {
         header {
+            background-image: url('../images/background.jpg');
             background-size: cover;
             background-position: center center;
-            padding: 40px 0;
+            padding: 60px 0;
         }
     
         header h1 {
             color: #735b14;
             text-shadow: 2px 2px 2px #262626;
-            font-size: 2em;
+            font-size: 3em;
         }
     
         nav li {
@@ -140,7 +144,6 @@ body {
     
         main {
             display: flex;
-            font-family: Arial, Helvetica, sans-serif;
         }
 
         article {
@@ -168,38 +171,13 @@ body {
             border-radius: 10px;
         }
 
-        section, aside {
+        section {
             border: 4px solid #262626;
             padding: 15px;
             margin: 10px;
+            width: 75%
         }
     
-        section {
-            width: 75%;
-        }
-        
-        aside {
-            width: 25%;
-        }
-
-        aside ul {
-            padding: 0;
-            list-style: none;
-        }
-
-        aside li {
-            display: inline-block;
-        }
-
-        aside li a {
-            padding: 20px 40px;
-            background-color: white;
-            text-align: center;
-            color: teal;
-            font-size: 125%;
-            text-decoration: none;
-        }
-
         footer {
             background-color: black;
             text-align: center;
@@ -207,22 +185,18 @@ body {
             padding: 20px 0;
         }
 
-        .feature {
-            background-color: black;
-            padding: 10px;
-            margin-top: 1%;
-        }
+
 
         div.bx-wrapper {
             display: none;
         }
 
         .button {
-            padding: 20px 40px;
+            padding: 10px 10px;
             background-color: white;
             text-align: center;
             color: #262626;
-            font-size: 95%;
+            font-size: 80%;
             text-decoration: none; 
         }
     }
@@ -236,12 +210,12 @@ body {
 
         nav li {
             display: inline-block;
-            width: 24.5%;
-        }
+            width: 19%;
+        }   
 
         nav li a {
-            background-color: white;
-            color: grey;
+            background-color: #402E59;
+            color: #4b83a6;
         }
 
         #menu { 
@@ -263,12 +237,6 @@ body {
             display: block;
             margin: 20px;
             width: 65%;
-        }
-
-        .feature {
-            background-color: white;
-            padding: 20px;
-            margin-top: 1%;
         }
 
         .projects {
